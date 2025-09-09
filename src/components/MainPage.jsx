@@ -34,7 +34,7 @@ export default function MainPage(){
           <Link to='/guide_list' className='guides'><span className="first_letter">G</span>uides </Link>
         </fieldset>
         <fieldset className='playlist'>
-          <legend><span className='first_letter'>Under </span>Construction:</legend>
+          <legend><span className='first_letter'>Section </span>Under Construction:</legend>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit aliquam cum consectetur atque sapiente officia quo? Vel error illo, porro accusantium commodi saepe itaque sunt laudantium ipsum sit natus.</p>
         </fieldset>
         <fieldset className="links text-white text-xl">
