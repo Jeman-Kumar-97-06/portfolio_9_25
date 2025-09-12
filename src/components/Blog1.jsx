@@ -1,11 +1,11 @@
 export default function HowInternetWorks() {
     return (
         <fieldset className="main_div hIW">
-            <legend>How Internet Works <span className="first_letter">?</span></legend>
+            <legend>How The Internet Works <span className="first_letter">?</span></legend>
             <div className="hosts_pic"></div>
             <div className='hiw_sec1'> 
                  &nbsp; &nbsp; Any Device that sends or receives network traffic is called a <span>Host</span>. 
-                Hosts include : Your PC, Laptop, Smartphones, Printers, Servers, Smart TVs, Smart Watches.<br/>Hosts are 
+                Hosts include : Your PC, Laptop, Phones, Printers, Servers, Smart TVs, Smart Watches.<br/>&nbsp; &nbsp; &nbsp;Hosts are 
                 again divided into <span>Servers</span> and <span>Clients</span>. A <span>Network</span> is formed when 
                 two or more hosts are connected to each other. Networks of networks is what we call the <span>Internet</span>
             </div>
@@ -16,8 +16,8 @@ export default function HowInternetWorks() {
             </div>
             <div className="ip_pic"></div>
             <div className="hiw_sec3">
-                &nbsp; &nbsp; This process of dividing IP addresses by hierarchy is called <span>Subnetting</span>. Subnetting is the logical
-                process of creating boundaries for a network.
+                &nbsp; &nbsp; This process of dividing IP addresses by hierarchy is called <span>Subnetting</span>. It is the logical
+                process of enforcing boundaries for a network.
             </div>
             <div className="hiw_sec4">
                 &nbsp; &nbsp; The boundary created by subnetting is called a <span>Subnet Mask</span>. Subnetting rules are created by network
@@ -27,7 +27,7 @@ export default function HowInternetWorks() {
                 &nbsp; &nbsp; For example, lets say Apple Inc., has 3 offices, NY Office, LDN Office, IND Office. If Apple Inc., has an IP - 10.x.x.x,
                 NY Office will have an IP - 10.20.x.x, LND Office will have an IP - 10.30.x.x and IND Office will have an IP - 10.40.x.x. 
                 Each office will have several departments. In NY Office, sales department may have an IP - 10.20.55.x, engineering department 
-                may have an IP - 10.20.66.x and Design Department may have an IP - 10.20.77.x.
+                may have an IP - 10.20.66.x and Design Department may have an IP-10.20.77.x.
             </div>
             <div className="ip_heirarchy"></div>
             <div className="hiw_sec4">
