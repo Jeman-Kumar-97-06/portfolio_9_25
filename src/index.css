@@ -171,7 +171,7 @@ legend{
   font-family: 'blockout';
 }
 
-.playlist{
+.news{
   padding:20px;
   grid-column-start : 2;
   grid-column-end: 4;
@@ -181,6 +181,9 @@ legend{
   border-color: white;
   font-family: 'robot','sans-serif';
   font-size:25px;
+  overflow-y: scroll;
+  height:300px;
+  color:white;
 }
 
 .g_and_b{
@@ -336,4 +339,30 @@ legend{
   height:400px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* Audio Plauer */
+.audio_player{
+  font-family: 'robot', 'sans-serif';
+  font-size: 25px;
+}
+
+/* Game Section */
+
+.gameContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:15px;
+}
+
+#gameboard{
+  border-width: 0.5px;
+  border-color: white;
+  width: 300px;
+  height:190px;
+}
+
+#scoreTxt, #resetScore {
+ 
 }
