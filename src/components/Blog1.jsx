@@ -12,17 +12,18 @@ export default function HowInternetWorks() {
             <div className='hiw_sec2'>
                 &nbsp; &nbsp; Usually clients initiate requests and servers respond. Every host has a temporary <span>IP address </span> 
                 to communicate on the internet. This IP address is made of 32 bits (1s and 0s). These 32 bits are divided into 
-                4 Octets (A group of 8 bits). These Octets when converted to decimals, will have values ranging from 0 to 255. IP addresses are assigned hierarchially. 
+                4 Octets (Groups of 8 bits). These Octets when converted to decimals, will have values ranging from 0 to 255. 
+                IP addresses are assigned hierarchially. 
             </div>
             <div className="ip_pic"></div>
             <div className="hiw_sec3">
                 &nbsp; &nbsp; This process of dividing IP addresses by hierarchy is called <span>Subnetting</span>. It is the logical
-                process of enforcing boundaries for a network.
+                process of enforcing boundaries within a network.
             </div>
             <div className="hiw_sec4">
                 &nbsp; &nbsp; The boundary created by subnetting is called a <span>Subnet Mask</span>. Subnetting rules are created by network
                 engineers/ network admins. Devices like Routers, Servers and sometimes Firewalls enforce those rules of subnetting. This process of 
-                subnetting creates <span>Subnets</span>. Subnets are logical parts of a network.
+                subnetting creates <span>Subnets</span>. Subnets are logical divisions within a network.
                 <br/>
                 &nbsp; &nbsp; For example, lets say Apple Inc., has 3 offices, NY Office, LDN Office, IND Office. If Apple Inc., has an IP - 10.x.x.x,
                 NY Office will have an IP - 10.20.x.x, LND Office will have an IP - 10.30.x.x and IND Office will have an IP - 10.40.x.x. 
@@ -41,7 +42,11 @@ export default function HowInternetWorks() {
                 smaller ranges with different subnet masks, subnets for formed. For example : You are given devices with IPs 192.168.0.x (one network). Devices with
                 IPs from 192.168.0.1 to 192.168.126 form a subnet and devices with IPs from 192.168.0.129 to 192.168.0.254 form a different subnet (don't think about what
                 happened to 192.168.0.0, 192.168.0.128 and 192.168.0.255 ). When it comes to networks, all devices with IP addresses from 195.170.5.0 to 195.170.5.255 are part of one network,
-                 while devices with IP addresses from 195.179.5.0 to 195.179.5.255 are part of another network.<br/> &nbsp; &nbsp; Routers 
+                 while devices with IP addresses from 195.179.5.0 to 195.179.5.255 are part of another network.<br/> &nbsp; &nbsp; Finally, these devices that belong to a 
+                 subnet or a network are connected to a router. This router transports the data to a <span>Modem</span>. A modem consists of a modulator and a demodulator.
+                  The modulator in the modem converts data from the router on the sender’s side into a format understandable by the ISP, while the demodulator converts data
+                   from the ISP into a format understandable by the router on the receiver’s side. 
+                &nbsp; &nbsp;The picture below sums up how the internet works
             </div>
         </fieldset>
     )
