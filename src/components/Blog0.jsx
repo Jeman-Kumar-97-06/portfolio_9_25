@@ -1,4 +1,4 @@
-export default function HowInternetWorks() {
+export default function InitialInternet() {
     return (
         <fieldset className="main_div hIW">
             <legend>How The Internet Works <span className="first_letter">:</span></legend>
@@ -45,8 +45,8 @@ export default function HowInternetWorks() {
                  while devices with IP addresses from 195.179.5.0 to 195.179.5.255 are part of another network.<br/> &nbsp; &nbsp; Finally, these devices that belong to a 
                  subnet or a network are connected to a router. This router transports the data to a <span>Modem</span>. A modem consists of a modulator and a demodulator.
                   The modulator in the modem converts data from the router on the sender’s side into a format understandable by the ISP, while the demodulator converts data
-                   from the ISP into a format understandable by the router on the receiver’s side. <br/>
-                &nbsp; &nbsp;The picture below gives you an overview of everything explained above.
+                   from the ISP into a format understandable by the router on the receiver’s side.<br/> 
+                &nbsp; &nbsp;The picture below sums up how the internet works
             </div>
         </fieldset>
     )

@@ -1,3 +1,4 @@
+import InitialInternet from "./components/Blog0";
 import HowInternetWorks from "./components/Blog1";
 import BlogList from "./components/BlogList";
 import GuideList from "./components/GuideList";
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/article_list' element={<BlogList/>}/>
           <Route exact path='/guide_list' element={<GuideList/>}/>
           <Route exact path='/how_internet_works' element={<HowInternetWorks/>}/>
+          <Route exact path='/initial_stages_of_internet' element={<InitialInternet/>}/>
         </Routes>
       </BrowserRouter>
     </>
