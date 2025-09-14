@@ -126,7 +126,6 @@ legend{
   border-width: 0.5px;
   border-color: white;
   border-radius: 5px;
-  overflow: hidden;
   width:100%;
   position: relative;
 }
@@ -346,12 +345,19 @@ legend{
   .main_div{
     width:95vw;
   }
+
   legend{
-    font-size: 40px;
+    font-size: 35px;
   }
   .name_div{
     width:90vw;
   }
+
+  .name {
+    font-size:40px;
+    text-shadow: 5px 5px black;
+  }
+
   .about_me{
     grid-column: 1/4;
     font-size: 18px;
@@ -398,7 +404,8 @@ legend{
     legend{
       font-size: 20px;
       font-family: 'dimitri','sans-serif';
-    }
+    };
+    height:83vh;
   }
   .hosts_pic{
     grid-column: 1/4;
