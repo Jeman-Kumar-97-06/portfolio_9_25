@@ -30,22 +30,38 @@
 body {
   font-family: "dimitri", sans-serif;
   color:white;
-  background-color: #474744;
-  color:#FF5722;
+  background-color: #0C005A;
+  color:#EAEAEA;
   width:100vw;
   height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 };
 
 .name{
   font-size: 45px;
   text-shadow:8px 8px #000000;
+  position: relative;
   margin: auto;
 }
 
 .name_div{
-  width: 500px;
+  width: 800px;
   margin: auto;
   text-align: center;
+  background-image: url('./assets/images/antigravity.gif');
+  background-size: cover;
+}
+
+.name_div:active{
+  .name{
+    text-shadow: 0px 0px;
+    left:8px;
+    top:8px;
+  }
 }
 
 .main_div{
@@ -68,11 +84,11 @@ legend{
   margin:3px;
   font-family: 'blockout','sans-serif';
   font-size: 45px;
-  color:#65EEB7;
+  color:#08D9D6;
 }
 
 .first_letter{
-  color:#FF5722
+  color:#FF2E63
 }
 
 .about_me{
@@ -90,7 +106,7 @@ legend{
 
 .mypic{
   legend {
-    color:#FF7F3E;
+    color:#FF2E63;
     text-shadow: 5px 5px black;
   }
   padding:5px;
@@ -110,7 +126,7 @@ legend{
 .projects{
   padding:5px;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   border-radius: 5px;
   border-color:white;
   border-width: 1px;
@@ -125,7 +141,7 @@ legend{
   height: 230px;
   overflow: hidden;
   padding : 5px;
-  grid-column: 3/4;
+  grid-column: 2/4;
   border-width: 0.5px;
   border-color: white;
   border-radius: 5px;

@@ -10,9 +10,9 @@ function App() {
     <>
       <BrowserRouter>
         {/* My Name */}
-        <div className="name_div">
+        <button className="name_div">
           <Link to='/' className="name">JEMAN</Link>
-        </div>
+        </button>
         {/* Main DIV */}
         <Routes>
           <Route exact path='/' element={<MainPage/>}/>
