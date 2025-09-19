@@ -34,10 +34,10 @@ export default function MainPage(){
           <Link to='/guide_list' className='guides'><span className="first_letter">G</span>uides </Link>
         </fieldset>
         <fieldset className='news'>
-          <legend><span className='first_letter'>Tech </span>News:</legend>
+          <legend><span className='first_letter'>Github </span>Progress:</legend>
           {/* <NewsTab/> */}
-          <img className='grind' alt='alt : github streak' src="https://github-readme-streak-stats.herokuapp.com/?user=Jeman-Kumar-97-06&theme=dark" /> <br/>
-          <img className='grade' alt='github status' src="https://github-readme-stats.vercel.app/api?username=Jeman-Kumar-97-06&show_icons=true&theme=dark" />
+          <img className='grade' alt='github status' src="https://github-readme-stats.vercel.app/api?username=Jeman-Kumar-97-06&show_icons=true&theme=dark" /><br/>
+          <img className='grind' alt='alt : github streak' src="https://github-readme-streak-stats.herokuapp.com/?user=Jeman-Kumar-97-06&theme=dark" />          
         </fieldset>
         <fieldset className="links text-white text-xl">
           <legend><span className='first_letter'>C</span>ontact:</legend>
