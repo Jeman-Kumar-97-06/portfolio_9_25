@@ -59,7 +59,7 @@ body {
   padding: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
   gap : 10px;
 }
 
@@ -344,6 +344,8 @@ legend{
 @media only screen and (max-width:600px) {
   .main_div{
     width:95vw;
+    height: 95vh;
+    overflow-y: scroll;
   }
 
   legend{
@@ -369,14 +371,12 @@ legend{
     width:100px;
     height:120px;
     font-size:10px;
-    legend{
-      display:none
-    }
   }
   .projects{
     font-size: 18px;
     grid-column: 1/4;
     width:85vw;
+    height:200px;
   }
   .skills {
     grid-column: 1/4;

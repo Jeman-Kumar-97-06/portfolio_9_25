@@ -7,11 +7,10 @@ export default function MainPage(){
         <div className="main_div">
           {/* My Pic */}
         <fieldset className="mypic">
-          <legend>ME:</legend>
         </fieldset>
         {/* About ME */}
         <fieldset className="about_me">
-          <legend><span className="first_letter">A</span>bout me:</legend>
+          <legend><span className="first_letter">Name: </span>Jeman</legend>
           <p style={{"marginLeft":"10px"}}>Full Stack Developer • MERN + Python <br/> Freelancer by trade, explorer by choice. <br/>Currently leveling up in cybersecurity and networks.<br/></p>
         </fieldset>
         
