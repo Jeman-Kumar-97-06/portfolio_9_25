@@ -10,7 +10,7 @@ export default function MainPage(){
         </fieldset>
         {/* About ME */}
         <fieldset className="about_me">
-          <legend><span className="first_letter">Name: </span>Jeman</legend>
+          <legend><span className="first_letter">About </span>me:</legend>
           <p style={{"marginLeft":"10px"}}>Full Stack Developer • MERN + Python <br/> Freelancer by trade, explorer by choice. <br/>Currently leveling up in cybersecurity and networks.<br/></p>
         </fieldset>
         
