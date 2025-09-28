@@ -30,7 +30,7 @@
 body {
   font-family: "dimitri", sans-serif;
   color:white;
-  background-color: #0C005A;
+  background-color: #222;
   color:#EAEAEA;
   width:100vw;
   height:100vh;
@@ -52,8 +52,8 @@ body {
   width: 800px;
   margin: auto;
   text-align: center;
-  background-image: url('./assets/images/antigravity.gif');
   background-size: cover;
+  color:#FF7F3E;
 }
 
 .name_div:active{
@@ -84,11 +84,11 @@ legend{
   margin:3px;
   font-family: 'blockout','sans-serif';
   font-size: 45px;
-  color:#08D9D6;
+  color: #1DCD9F;
 }
 
 .first_letter{
-  color:#FF2E63
+  color:#FF7F3E
 }
 
 .about_me{
@@ -106,7 +106,7 @@ legend{
 
 .mypic{
   legend {
-    color:#FF2E63;
+    color:#FF7F3E;
     text-shadow: 5px 5px black;
   }
   padding:5px;
