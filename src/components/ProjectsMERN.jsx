@@ -1,9 +1,10 @@
 export default function ProjectsMERN () {
     return (
-        <div className="projects_m">
+        <fieldset className="projects_m">
+            <legend>MERN Stack Projects</legend>
             <a className="proj_m">Re-Store</a><br/>
             <a className='proj_m'>ChatterBox</a><br/>
             <a className='proj_m'>Inscribe</a>
-        </div>
+        </fieldset>
     )
 }
