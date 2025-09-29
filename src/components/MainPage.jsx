@@ -17,10 +17,9 @@ export default function MainPage(){
         {/* My Projects */}
         <fieldset className="projects">
           <legend><span className="first_letter">P</span>rojects:</legend>
-          <a target='_blank' href='https://github.com/Jeman-Kumar-97-06/E-Commerce_App_Refurbished_Phones' style={{"marginLeft":"10px"}}>Refurb Store</a><br/>
-          <a target='_blank' href='https://capable-zuccutto-91acf1.netlify.app/' style={{"marginLeft":"10px"}}>Backgroundz</a><br/>
-          <a target='_blank' href='#' style={{"marginLeft":"10px"}}>ImageGen</a><br/>
-          <a target='_blank' href="#" style={{"marginLeft":"10px"}}>Notes</a><br/>
+          <Link>MERN Stack</Link><br/>
+          <Link>Python</Link><br/>
+          <Link>C</Link>
         </fieldset>
         {/* My Skills */}
         <fieldset className='skills'>

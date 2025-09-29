@@ -54,6 +54,8 @@ body {
   text-align: center;
   background-size: cover;
   color:#FF7F3E;
+  display: flex;
+  justify-content: center;
 }
 
 .name_div:active{
