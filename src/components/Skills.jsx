@@ -15,6 +15,7 @@ function SkillsTicker() {
         <div className='redis'></div>
         <div className="docker"></div>
         <div className="mongodb"></div>
+        <div className="c"></div>
 
         {/* Duplicate for infinite loop effect */}
         <div className="python"></div>
@@ -28,6 +29,7 @@ function SkillsTicker() {
         <div className='redis'></div>
         <div className="docker"></div>
         <div className="mongodb"></div>
+        <div className="c"></div>
       </div>
     </div>
   );

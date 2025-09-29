@@ -29,7 +29,7 @@ export default function MainPage(){
         {/* Blogs and Guides */}
         <fieldset className='g_and_b'>
           <legend><span className='first_letter'>My </span>Docs:</legend>
-          <Link to='/article_list' className='blogs'><span className="first_letter">A</span>rticles </Link>
+          <Link to='/article_list' className='blogs'><span className="first_letter">W</span>ritings </Link>
           <Link to='/guide_list' className='guides'><span className="first_letter">G</span>uides </Link>
         </fieldset>
         <fieldset className='news'>

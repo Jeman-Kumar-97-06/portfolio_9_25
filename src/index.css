@@ -275,6 +275,10 @@ legend{
  background-image: url('./assets/images/redis.png');
 }
 
+.c {
+  background-image: url('./assets/images/letter-c.png');
+}
+
 /* Keyframes for scroll */
 @keyframes ticker {
   0% {
@@ -360,6 +364,21 @@ legend{
   height:400px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.projects_m {
+  font-family: 'robot';
+  width:800px;
+  align-self: center;
+  margin: auto;
+  border-radius: 5px;
+  border-width: 1px;
+  padding:10px;
+  height: 89vh;
+}
+
+.proj_m{
+  font-size : 30px;
 }
 
 @media only screen and (max-width:600px) {
