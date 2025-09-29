@@ -7,6 +7,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { Link } from "react-router-dom";
 import ProjectsMERN from "./components/ProjectsMERN";
 import ProjectsPy from "./components/ProjectsPy";
+import ProjectsC from "./components/projectsC";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/how_internet_works' element={<HowInternetWorks/>}/>
           <Route exact path='/projects_mern' element={<ProjectsMERN/>}/>
           <Route exact path='/projects_py' element={<ProjectsPy/>}/>
+          <Route exact path='/projects_c' element={<ProjectsC/>}/>
         </Routes>
       </BrowserRouter>
     </>

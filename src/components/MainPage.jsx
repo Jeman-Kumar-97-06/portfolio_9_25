@@ -17,9 +17,9 @@ export default function MainPage(){
         {/* My Projects */}
         <fieldset className="projects">
           <legend><span className="first_letter">P</span>rojects:</legend>
-          <Link>MERN Stack</Link><br/>
-          <Link>Python</Link><br/>
-          <Link>C</Link>
+          <Link to='/projects_mern'>MERN Stack</Link><br/>
+          <Link to='/projects_py'>Python</Link><br/>
+          <Link to='/projects_c'>C</Link>
         </fieldset>
         {/* My Skills */}
         <fieldset className='skills'>
@@ -28,7 +28,7 @@ export default function MainPage(){
         </fieldset> 
         {/* Blogs and Guides */}
         <fieldset className='g_and_b'>
-          <legend><span className='first_letter'>My </span>Docs:</legend>
+          <legend><span className='first_letter'>Know</span>ledge:</legend>
           <Link to='/article_list' className='blogs'><span className="first_letter">W</span>ritings </Link>
           <Link to='/guide_list' className='guides'><span className="first_letter">G</span>uides </Link>
         </fieldset>
